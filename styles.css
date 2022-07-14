@@ -1,0 +1,100 @@
+body {
+    background: rgb(22, 21, 21);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    background-image: url("images/hero.png");
+    background-size: 400px;
+    padding: 30px 30px;
+    font-size: 20px;
+}
+
+section {
+    background: rgb(44, 41, 41);
+    padding: 30px 30px;
+    font-size: 20px;
+}
+
+footer {
+    background-attachment: scroll;
+    background-position: 0px 0px;
+    position: fixed;
+    bottom: 0pt;
+}
+
+div {
+    text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h1 {
+    padding: 40px 0px;
+    margin: -40px 0px;
+    text-align: center;
+}
+
+h2 {
+    padding: 40px 0px;
+    margin: -40px 0px;
+    text-align: center;
+}
+
+.logo {
+    background-image: url("images/logo.png");
+    background-size: 60px;
+    background-repeat: none;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-indent: -999999px;
+    position: relative;
+    top: -15px;
+}
+
+.discordcontacts {
+    background-image: url("images/discord.png");
+    background-size: 60px;
+    background-repeat: none;
+    height: 60px;
+    width: 60px;
+    text-indent: -999999px;
+    margin: 0 auto 0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav .linkbuttons {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+nav .linkbuttons:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+}
+
+p a{
+    text-decoration: none;
+    color: rgb(75, 75, 189);
+}
