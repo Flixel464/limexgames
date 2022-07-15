@@ -1,5 +1,5 @@
 body {
-    background: rgb(22, 21, 21);
+    background: rgb(255, 255, 255);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -12,12 +12,16 @@ header {
     background-size: 400px;
     padding: 30px 30px;
     font-size: 20px;
+    height: 230px;
 }
 
 section {
-    background: rgb(44, 41, 41);
-    padding: 30px 30px;
+    background: rgb(243, 243, 243);
+    padding: 60px 30px;
     font-size: 20px;
+    width: 700px;
+    margin: 0 auto 0 auto;
+    margin-top: 50px;
 }
 
 footer {
@@ -25,6 +29,7 @@ footer {
     background-position: 0px 0px;
     position: fixed;
     bottom: 0pt;
+    color: black;
 }
 
 div {
@@ -51,6 +56,7 @@ h1 {
 h2 {
     padding: 40px 0px;
     margin: -40px 0px;
+    color: black;
     text-align: center;
 }
 
@@ -66,35 +72,32 @@ h2 {
     top: -15px;
 }
 
-.discordcontacts {
-    background-image: url("images/discord.png");
-    background-size: 60px 60px;
-    background-repeat: none;
-    height: 60px;
-    width: 60px;
-    text-indent: -999999px;
-    margin: 0 auto 0 auto;
-}
-
 nav {
     text-align: center;
 }
 
-nav .linkbuttons {
+nav .navbutton {
     display: inline-block;
     text-decoration: none;
     color: white;
 }
 
-nav .linkbuttons:hover {
+nav .navbutton:hover {
     text-decoration: underline;
 }
 
 p {
+    color: black;
     text-align: center;
+}
+
+p .floatleft {
+    color: black;
+    float: left;
 }
 
 p a{
     text-decoration: none;
     color: rgb(75, 75, 189);
+    float: left;
 }
