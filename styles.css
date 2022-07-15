@@ -68,8 +68,8 @@ h2 {
     height: 60px;
     width: 60px;
     text-indent: -999999px;
-    position: relative;
     top: -15px;
+    position: relative;
 }
 
 nav {
@@ -77,7 +77,6 @@ nav {
 }
 
 nav .navbutton {
-    display: inline-block;
     text-decoration: none;
     color: white;
 }
@@ -91,13 +90,14 @@ p {
     text-align: center;
 }
 
-p .floatleft {
-    color: black;
+p a.link{
+    text-decoration: none;
+    color: rgb(75, 75, 189);
     float: left;
 }
 
-p a{
-    text-decoration: none;
-    color: rgb(75, 75, 189);
+p a.floatleft{
+    
+    color: black;
     float: left;
 }
